@@ -14,7 +14,8 @@
       message = data.message;
   
       if (data.success) {
-        window.location.href = '/dashboard'; // Eller en annen side du ønsker å sende brukeren til
+        // Redirect til en annen side om ønskelig
+        window.location.href = '/dashboard';
       }
     }
   </script>
